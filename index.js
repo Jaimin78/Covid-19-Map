@@ -1,6 +1,6 @@
 function updateMap()
 {
-    fetch("/data.json")
+    fetch("https://jaimin78.github.io/Covid-19-Map/data.json")
     .then(response => response.json())
     .then(rsp => {
         console.log(rsp)
